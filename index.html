@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>ISHCR 2024</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/institute_logo_white.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="speakers.html">SPEAKERS</a></li>
+                        <li><a href="schedule.html">SCHEDULE</a></li>
+                        <li><a href="galary.html">GALLERY</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>  
+            </nav>
+            <div class="text-box">
+                <h1>International Research <br> Symposium </h1>
+                <h2>Advancements in Precision Healthcare Robotics <br> and <br> Assistive Technology </h2>
+                <h4>Organized By: </h4>
+                <h4>Center of Excellence Telemedicine and robotics <br> Gangwal School of Medical Science and Technoology <br> Indian Institute of Technology Kanpur </h4> 
+                <p>Date: 22 & 23 November 2024 Time: 8:30 Am ~ 19:30 Pm <br>
+                Venue: MFCEM Auditorium, IIT Kanpur (Hybrid Mode)</p>
+                <a class="join_btn" href="https://docs.google.com/forms/d/e/1FAIpQLSf1GeGsLtHRbZ1b5R4oVt7VwRpInGKNguSf1xz1EHEAqf4vFw/viewform">Register Here</a> 
+            </div>
+
+        </section>
+<!---------------COURSE-------------------------------->
+        <section class="Plenary">
+            <h1>Plenary Speakers</h1>
+
+            <div class="row">
+                <div class="col">
+                    <img src="images/Leonardo-Mattos.png">
+                    <div class="layer">
+                        <h3>Prof. Leonardo De Mattos</h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/Ambarish Ghosh.jpg">
+                    <div class="layer">
+                        <h3>Prof. Ambarish Ghosh</h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/Radhakant-Padhi.jpg">
+                    <div class="layer">
+                        <h3>Prof. Radhakant Padhi</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="images/Shabnam Bashir.jpg">
+                    <div class="layer">
+                        <h3>Dr. Shabnam Bashir</h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/pramindanotts_small.jpg">
+                    <div class="layer">
+                        <h3>Prof. Praminda Caleb-Solly</h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/Mahendra_bhandari.jfif">
+                    <div class="layer">
+                        <h3>Prof. Mahendra Bhandari</h3>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+<!-- --------------------footer----------------------->
+        <section class="footer">
+            <div class="footer-row">
+                <h3>Sponsors of the symposium</h3>
+            </div>
+            <div class="footer-row">
+                <div class="footer-col">
+                    <img src="images/Ansys.png">
+                </div>
+                <div class="footer-col">
+                    <img src="images/ICMR.png">
+                </div>
+            </div>
+
+        </section>
+
+<!------------JavaScript for toggle Menu--------------------------->        
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>

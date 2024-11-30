@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>ISHCR 2024</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    </head>
+    <body>
+        <section class="contact-header">
+            <nav>
+                <a href="index.html"><img src="images/institute_logo_white.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="speakers.html">SPEAKERS</a></li>
+                        <li><a href="schedule.html">SCHEDULE</a></li>
+                        <li><a href="galary.html">GALLERY</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>  
+            </nav>
+        </section>
+<!---------------Content-------------------------------->
+
+<section class="contact">
+    <div class="map">
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.759966423512!2d80.2312976542848!3d26.514017264429928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c37e98da57187%3A0xe5eab723479e5f55!2sMehta%20Family%20Centre%20for%20Engineering%20in%20Medicine!5e0!3m2!1sen!2sin!4v1731015297475!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+           <p>The Mehta Family Centre for Engineering in Medicine <br>
+            Indian Institute of Technology Kanpur <br> email: bishakhbiitk@gmail.com</p>        
+    </div>
+</section>
+
+<!-- --------------------footer----------------------->
+        <section class="footer">
+            <div class="footer-row">
+                <h3>Sponsors of the symposium</h3>
+            </div>
+            <div class="footer-row">
+                <div class="footer-col">
+                    <img src="images/Ansys.png">
+                </div>
+                <div class="footer-col">
+                    <img src="images/ICMR.png">
+                </div>
+            </div>
+
+
+        </section>
+
+<!------------JavaScript for toggle Menu--------------------------->        
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
